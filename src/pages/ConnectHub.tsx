@@ -50,7 +50,6 @@ export default function ConnectHub() {
 
     setContacts(prev => [...prev, newContact])
 
-    // limpar formulário
     setName("")
     setEmail("")
     setPhone("")
